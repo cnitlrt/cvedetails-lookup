@@ -24,6 +24,7 @@ def table(columns, data, hrules=True):
     for row in data:
         table.add_row(row)
     table.align = "l"
+    table.max_width = 50
     print(table)
 def color_cvss(cvss):
     """Attribute a color to the CVSS score"""
