@@ -6,7 +6,7 @@ pip3 install -r requirements.txt
 ```
 usage: getcve.py [-h] [--vendor VENDOR] --product PRODUCT --version VERSION [--csv <output-filename>] [--display-csv]
 ```
-### example
+### Example
 ```bash
 python3 getcve.py --product busybox --version 1.30.1
 ```
