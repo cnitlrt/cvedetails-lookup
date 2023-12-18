@@ -11,7 +11,10 @@ usage: getcve.py [-h] [--vendor VENDOR] --product PRODUCT --version VERSION [--c
 python3 getcve.py --product busybox --version 1.30.1
 ```
 
+![image-20231218162729076](image/image-20231218162729076.png)
+
 ## References
+
 ```
 https://github.com/koutto/cvedetails-lookup/blob/master/cvedetails-lookup.py
 ```
